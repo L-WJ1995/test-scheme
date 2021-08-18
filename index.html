@@ -7,9 +7,11 @@
   <title>Document</title>
 </head>
 <body>
-  请在下方输入scheme进行测试：
-  <input type="text" id="scheme">
-  <button id="submit"></button>
+  <div>请在下方输入scheme进行测试：</div>
+  <div><input type="text" id="scheme"></div>
+  <div><button id="submit">唤起app</button></div>
+  <div><span>钉钉scheme:</span><span> dingtalk://close </span></div>
+  <div><span>钉钉scheme:</span><span> weixin:// </span></div>
   <script>
     submit.onclick = function() {
       window.location.href = scheme.value
